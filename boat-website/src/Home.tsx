@@ -1,8 +1,17 @@
+import BoatVideo from "./BoatVideo";
+import MapImages from "./Mapimages";
+import HeroText from './HeroText';
+
+
 function Home() {
 
 
     return (
-     <div>Home</div>
+   <>
+   <HeroText/>
+   <MapImages/>
+   <BoatVideo/>
+   </>
     )
   }
   
