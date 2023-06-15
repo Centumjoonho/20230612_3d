@@ -6,7 +6,7 @@ function MapImages( ){
 
     <div className="absolute w-full flex justify-between transform -translate-y-200px -z-1 overflow-hidden">
         <motion.img
-         src="/src/assets/map_1.png"
+         src="/assets/map_1.png"
          initial={{x:-100 ,opacity:0}}
          animate={{x:0 ,opacity:1}}
         transition={{
@@ -17,7 +17,7 @@ function MapImages( ){
         className="object-cover"
          alt="map_1" />
         <motion.img 
-        src="/src/assets/map_2.png" 
+        src="/assets/map_2.png" 
         initial={{x:-100 ,opacity:0}}
         animate={{x:0 ,opacity:1}}
        transition={{
