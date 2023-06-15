@@ -27,4 +27,4 @@ function HeroText( ){
 
     );
 }
-export default HeroText;
+export default HeroText; 
